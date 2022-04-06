@@ -1,12 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio d'Antoine</title>
-  </head>
-  <body>
-    Ce site est en cours de construction
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Portfolio d'Antoine</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<h1>Ce site est en cours de construction</h1>
+		<p>Notre développeur est dessus depuis <span id="date"></span></p>
+		<script>
+			const output = document.getElementById('date');
+			const from = new Date('April 6, 2022 21:00:00').getTime();
+
+			const dateToString = date => {
+				const days = Math.floor(date / (1000 * 60 * 60 * 24));
+				const hours = Math.floor(
+					(date % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+				);
+				const minutes = Math.floor((date % (1000 * 60 * 60)) / (1000 * 60));
+				const seconds = Math.floor((date % (1000 * 60)) / 1000);
+
+				return `${days}j ${hours}h ${minutes}m ${seconds}s`;
+			};
+
+			const updateDate = () => {
+				const delta = Math.floor(Date.now() - from);
+				output.innerHTML = dateToString(delta);
+			};
+			updateDate();
+			setInterval(updateDate, 1000);
+		</script>
+	</body>
 </html>
