@@ -1,11 +1,11 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-c1b5923b.js",
+    "file": "start-e924c262.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
       "_index-96b401eb.js",
-      "_singletons-bade0684.js"
+      "_singletons-bdc89a23.js"
     ],
     "dynamicImports": [
       ".svelte-kit/runtime/components/layout.svelte",
@@ -43,7 +43,7 @@
       "_nav-e5451c0c.js"
     ],
     "css": [
-      "assets/pages/contact.svelte-e01d1845.css"
+      "assets/pages/a-propos.svelte-6021bb8d.css"
     ]
   },
   "src/routes/contact.svelte": {
@@ -56,18 +56,18 @@
       "_nav-e5451c0c.js"
     ],
     "css": [
-      "assets/pages/contact.svelte-e01d1845.css"
+      "assets/pages/a-propos.svelte-6021bb8d.css"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-53592a1c.js",
+    "file": "pages/index.svelte-a81b4c15.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-96b401eb.js",
       "_nav-e5451c0c.js",
-      "_singletons-bade0684.js"
+      "_singletons-bdc89a23.js"
     ],
     "dynamicImports": [
       "node_modules/locomotive-scroll/dist/locomotive-scroll.esm.js"
@@ -79,8 +79,8 @@
   "_index-96b401eb.js": {
     "file": "chunks/index-96b401eb.js"
   },
-  "_singletons-bade0684.js": {
-    "file": "chunks/singletons-bade0684.js",
+  "_singletons-bdc89a23.js": {
+    "file": "chunks/singletons-bdc89a23.js",
     "imports": [
       "_index-96b401eb.js"
     ]

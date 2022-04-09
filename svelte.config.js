@@ -11,10 +11,7 @@ const config = {
 
 	kit: {
 		adapter: adapter({
-			precompress: true,
-			trailingSlash: 'always',
-			base: 'docs',
-			assets: 'docs'
+			pages: 'docs'
 		}),
 		paths: {
 			base: dev ? '' : '/portfolio'
@@ -22,8 +19,7 @@ const config = {
 		prerender: {
 			// This can be false if you're using a fallback (i.e. SPA mode)
 			default: true
-		},
-		appDir: 'internal'
+		}
 	}
 };
 
