@@ -1,0 +1,102 @@
+{
+  ".svelte-kit/runtime/client/start.js": {
+    "file": "start-e8411d49.js",
+    "src": ".svelte-kit/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_index-96b401eb.js",
+      "_singletons-9b7fba92.js"
+    ],
+    "dynamicImports": [
+      ".svelte-kit/runtime/components/layout.svelte",
+      ".svelte-kit/runtime/components/error.svelte",
+      "src/routes/a-propos.svelte",
+      "src/routes/contact.svelte",
+      "src/routes/index.svelte"
+    ]
+  },
+  ".svelte-kit/runtime/components/layout.svelte": {
+    "file": "layout.svelte-74c1691e.js",
+    "src": ".svelte-kit/runtime/components/layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-96b401eb.js"
+    ]
+  },
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "error.svelte-6d6e069b.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-96b401eb.js"
+    ]
+  },
+  "src/routes/a-propos.svelte": {
+    "file": "pages/a-propos.svelte-4c81248b.js",
+    "src": "src/routes/a-propos.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-96b401eb.js",
+      "_nav-9320839f.js"
+    ],
+    "css": [
+      "assets/pages/a-propos.svelte-6021bb8d.css"
+    ]
+  },
+  "src/routes/contact.svelte": {
+    "file": "pages/contact.svelte-b27ca0b7.js",
+    "src": "src/routes/contact.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-96b401eb.js",
+      "_nav-9320839f.js"
+    ],
+    "css": [
+      "assets/pages/a-propos.svelte-6021bb8d.css"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "pages/index.svelte-62498c2e.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-96b401eb.js",
+      "_nav-9320839f.js",
+      "_singletons-9b7fba92.js"
+    ],
+    "dynamicImports": [
+      "node_modules/locomotive-scroll/dist/locomotive-scroll.esm.js"
+    ],
+    "css": [
+      "assets/pages/index.svelte-18f33a62.css"
+    ]
+  },
+  "_index-96b401eb.js": {
+    "file": "chunks/index-96b401eb.js"
+  },
+  "_singletons-9b7fba92.js": {
+    "file": "chunks/singletons-9b7fba92.js",
+    "imports": [
+      "_index-96b401eb.js"
+    ]
+  },
+  "_nav-9320839f.js": {
+    "file": "chunks/nav-9320839f.js",
+    "imports": [
+      "_index-96b401eb.js"
+    ],
+    "css": [
+      "assets/nav-3aa1cc67.css"
+    ]
+  },
+  "node_modules/locomotive-scroll/dist/locomotive-scroll.esm.js": {
+    "file": "chunks/locomotive-scroll.esm-6cd3f86c.js",
+    "src": "node_modules/locomotive-scroll/dist/locomotive-scroll.esm.js",
+    "isDynamicEntry": true
+  }
+}
