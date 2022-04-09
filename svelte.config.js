@@ -1,7 +1,7 @@
 import adapter from '@sveltejs/adapter-static';
 import preprocess from 'svelte-preprocess';
 
-const dev = 'production' === 'development';
+const dev = process.env.NODE_ENV === 'development';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -12,15 +12,16 @@ const config = {
 	kit: {
 		adapter: adapter({
 			precompress: true,
-			pages: 'docs',
-			assets: 'docs',
-			trailingSlash: 'always',
-			fallback: null
+			trailingSlash: 'always'
 		}),
+		paths: {
+			base: dev ? '' : '/portfolio'
+		},
 		prerender: {
 			// This can be false if you're using a fallback (i.e. SPA mode)
 			default: true
-		}
+		},
+		appDir: 'internal'
 	}
 };
 

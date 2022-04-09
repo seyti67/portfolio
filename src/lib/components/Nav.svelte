@@ -2,15 +2,15 @@
 	const nav = [
 		{
 			title: 'Projets',
-			url: '/'
+			url: '/portfolio'
 		},
 		{
 			title: 'À propos',
-			url: '/a-propos'
+			url: '/portfolio/a-propos'
 		},
 		{
 			title: 'Contact',
-			url: '/contact'
+			url: '/portfolio/contact'
 		}
 	];
 	import '$lib/styles/global.css';
