@@ -12,7 +12,9 @@ const config = {
 	kit: {
 		adapter: adapter({
 			precompress: true,
-			trailingSlash: 'always'
+			trailingSlash: 'always',
+			base: 'docs',
+			assets: 'docs'
 		}),
 		paths: {
 			base: dev ? '' : '/portfolio'
