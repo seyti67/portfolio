@@ -24,12 +24,15 @@
 	import lozad from 'lozad';
 
 	import mediumZoom from 'medium-zoom';
-	import { beforeNavigate } from '$app/navigation';
+	import { afterNavigate, beforeNavigate } from '$app/navigation';
 
 	onMount(lazyload);
 
 	beforeNavigate(() => {
 		zoom.close();
+	});
+	afterNavigate(() => {
+		lazyload();
 	});
 </script>
 
