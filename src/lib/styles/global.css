@@ -36,5 +36,5 @@ a {
 	position: fixed;
 }
 #app {
-	overflow-x: hidden;
+	overflow: hidden;
 }
