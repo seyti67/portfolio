@@ -47,6 +47,18 @@ export function get(): { body: { projects: Project[] } } {
 					description:
 						"Il se joue à plusieurs, chaque joueur dessine un bout de dessin en voyant un petit bout dépasser du morceau précédent. Draw Together s'inspire d'un jeu pratiqué entre élèves dans la vraie vie où le même principe s'applique à une feuille de papier que l'on plie. Ici, on doit dessiner un objet parmi une liste de 3 mots, cette liste est constante pour chaque dessin mais il arrive que le premier commence avec une fourchette et que le deuxième continue avec une girafe donnant lieu à des résultats loufoques.",
 					images: ['draw/rooms.png', 'draw/dessin1.png', 'draw/dessin2.png', 'draw/result.png']
+				},
+				{
+					title: 'Thomas le train',
+					description:
+						'Dans le cadre des cours de NSI de première, nous avons réalisé avec un ami un site sur Thomas le train, le dessin animé pour enfant. Il n\'utilise aucune librairie mais comprend tout de même certaines fonctionnalités poussées comme les roues du train qui bougent avec le scroll ou la grue qui vient chercher les wagons pour en sortir les menus. Il a donc fallu beaucoup de travail pour le faire fonctionner mais le résultat était satisfaisant pour l\'époque. Vous pouvez le trouver <a href="https://thomasletrain--duianaft.repl.co" target="_blank">ici</a>.',
+					images: [
+						'thomas/home.png',
+						'thomas/cube.png',
+						'thomas/ile.png',
+						'thomas/mods.png',
+						'thomas/commercial.png'
+					]
 				}
 			]
 		}
