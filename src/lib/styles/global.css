@@ -31,3 +31,10 @@ a {
 .swiper-button-next {
 	filter: drop-shadow(0 0 2px var(--primary));
 }
+
+[data-load-container] {
+	position: fixed;
+}
+#app {
+	overflow-x: hidden;
+}

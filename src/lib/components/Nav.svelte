@@ -40,6 +40,7 @@
 		text-decoration: none;
 		color: #fff;
 		transition: box-shadow 0.2s ease-in-out;
+		outline: none;
 	}
 	a:first-child {
 		border-top-left-radius: 0.8rem;
@@ -51,5 +52,8 @@
 	}
 	a:hover {
 		box-shadow: inset 0 0 0.3rem rgba(255, 255, 255, 0.2);
+	}
+	a:focus {
+		box-shadow: inset 0 0 0.3rem rgba(255, 255, 255, 0.6);
 	}
 </style>
