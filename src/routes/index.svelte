@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Nav from '$lib/components/nav.svelte';
+	import Nav from '$lib/components/Nav.svelte';
 	import Scroll from '$lib/components/scroll.svelte';
 	import Pane from '$lib/components/index/Pane.svelte';
 	import { Swiper, SwiperSlide } from 'swiper/svelte';
@@ -43,7 +43,7 @@
 							data-zoom
 							height="746"
 							width="1495"
-							data-src={image}
+							data-src="./images/{image}"
 							alt=""
 						/>
 					</SwiperSlide>

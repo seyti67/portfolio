@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-682b9bc3.js",
+    "file": "start-1a775212.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -34,46 +34,48 @@
     ]
   },
   "src/routes/a-propos.svelte": {
-    "file": "pages/a-propos.svelte-1610f7cc.js",
+    "file": "pages/a-propos.svelte-ab5cafa7.js",
     "src": "src/routes/a-propos.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-b7bdd115.js",
-      "_nav-b392a816.js",
-      "_scroll-9ac34f19.js",
+      "_nav-3345cbbc.js",
+      "_scroll-8c7be3ee.js",
       "_singletons-47e5862e.js"
     ],
     "css": [
-      "assets/pages/a-propos.svelte-6651b6dc.css"
+      "assets/pages/a-propos.svelte-6651b6dc.css",
+      "assets/global-f1628189.css"
     ]
   },
   "src/routes/contact.svelte": {
-    "file": "pages/contact.svelte-3bfd9056.js",
+    "file": "pages/contact.svelte-49ed4b33.js",
     "src": "src/routes/contact.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-b7bdd115.js",
-      "_nav-b392a816.js"
+      "_nav-3345cbbc.js"
     ],
     "css": [
-      "assets/pages/contact.svelte-e01d1845.css"
+      "assets/pages/contact.svelte-e01d1845.css",
+      "assets/global-f1628189.css"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-73126b48.js",
+    "file": "pages/index.svelte-9a139b72.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-b7bdd115.js",
-      "_nav-b392a816.js",
-      "_scroll-9ac34f19.js",
+      "_scroll-8c7be3ee.js",
       "_singletons-47e5862e.js"
     ],
     "css": [
-      "assets/pages/index.svelte-a8259022.css"
+      "assets/pages/index.svelte-7a8e1997.css",
+      "assets/global-f1628189.css"
     ]
   },
   "_index-b7bdd115.js": {
@@ -82,17 +84,18 @@
   "_singletons-47e5862e.js": {
     "file": "chunks/singletons-47e5862e.js"
   },
-  "_nav-b392a816.js": {
-    "file": "chunks/nav-b392a816.js",
+  "_nav-3345cbbc.js": {
+    "file": "chunks/nav-3345cbbc.js",
     "imports": [
       "_index-b7bdd115.js"
     ],
     "css": [
-      "assets/nav-aa7069da.css"
+      "assets/nav-5f6a5236.css",
+      "assets/global-f1628189.css"
     ]
   },
-  "_scroll-9ac34f19.js": {
-    "file": "chunks/scroll-9ac34f19.js",
+  "_scroll-8c7be3ee.js": {
+    "file": "chunks/scroll-8c7be3ee.js",
     "imports": [
       "_singletons-47e5862e.js",
       "_index-b7bdd115.js"
