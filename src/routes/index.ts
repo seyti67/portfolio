@@ -16,7 +16,7 @@ export function get(): { body: { projects: Project[] } } {
 				},
 				{
 					title: 'Manufacture Blumenroeder',
-					description: `Il s'agit d'un site internet pour la Manufacture d'orgues Blumenroeder accessible à l'adresse <a href="https://blumenroeder.fr" target="_blank">blumenroeder.fr</a>. Il bénéficie d'une grande visibilité mais une des erreurs a été de n'utiliser aucune librairie ce qui me fait que je le reconstruis complètement aujourd'hui n'étant pas entièrement satisfait. Le nouveau sera basé sur SvelteKit, NodeJS et le CMS Strapi.`,
+					description: `Il s'agit d'un site internet pour la Manufacture d'orgues Blumenroeder accessible à l'adresse <a href="https://blumenroeder.fr" target="_blank">blumenroeder.fr</a>. Il bénéficie d'une grande visibilité mais une des erreurs a été de n'utiliser aucune librairie ce qui me fait que je le reconstruis complètement aujourd'hui n'étant pas entièrement satisfait. Le nouveau sera basé sur SvelteKit, NodeJS et le CMS Strapi. (Vous pouvez visiter le projet en cours <a href="http://51.91.250.172" target="_blank">ici</a>)`,
 					images: [
 						'blumenroeder/nav.png',
 						'blumenroeder/home.png',

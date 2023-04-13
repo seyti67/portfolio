@@ -18,10 +18,11 @@
 			</div>
 			<h2>Antoine Blumenroeder</h2>
 			<ul class="back">
-				<li>Age : 17 ans</li>
+				<li>Age : 18 ans</li>
 				<li>Pays : France</li>
-				<li>Situation : Lycée (Terminale)</li>
+				<li>Situation : 1ère année EPITA</li>
 				<li>Passion : programmation</li>
+				<a href="/portfolio/CV Antoine BLUMENROEDER.pdf" target="_blank">CV</a>
 			</ul>
 		</div>
 	</div>
@@ -29,7 +30,7 @@
 	<Skills />
 	<h1 data-scroll data-scroll-direction="horizontal" data-scroll-speed="5">Mon caractère</h1>
 	<p class="about" data-scroll data-scroll-speed="3" data-scroll-delay="0.1">
-		Lycéen motivé par la volonté d'apprendre, de comprendre et de découvrir, j'aime les défis, la
+		Étudiant motivé par la volonté d'apprendre, de comprendre et de découvrir, j'aime les défis, la
 		programmation et les mathématiques qui sont pour moi des sources de stimulation. Même si la
 		curiosité prône, je ressens aussi un besoin de créer ce qui forme un certain équilibre. La
 		curiosité me lance dans des projets et la volonté de créer me pousse à les mener à bien.
@@ -97,6 +98,16 @@
 		flex-direction: column;
 		justify-content: center;
 		gap: 1rem;
+		a {
+			text-decoration: none;
+			color: #000;
+			position: absolute;
+			bottom: 1rem;
+			right: 1rem;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
 	}
 	.back li::before {
 		content: ' - ';
